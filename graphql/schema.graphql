@@ -1,0 +1,16 @@
+type User{
+    id: Int!,
+    name: String!,
+    email: String!,
+    birth: String!,
+    address: String!,
+    phone: String!,
+    password: String!,
+    gender: String!,
+    photo: String!,
+}
+
+type Query{
+    users: [User]!
+    user: User!
+}

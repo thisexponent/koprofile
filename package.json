@@ -1,0 +1,20 @@
+{
+  "name": "koprofile",
+  "version": "1.0.0",
+  "description": "fake profile generator api in korean",
+  "main": "index.js",
+  "author": "Jisu Lee",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "graphql-yoga": "^1.18.1",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
